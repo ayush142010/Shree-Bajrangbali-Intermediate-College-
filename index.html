@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Shree Bajrangbali Intermediate College </title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Shree Bajrangbali Intermediate College 2025</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#admission">Admission</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Alert popup -->
+  <div class="popup" id="alertPopup">
+    <div class="popup-content">
+      <button class="close-btn" onclick="document.getElementById('alertPopup').style.display='none'">&times;</button>
+      <h3>Register for Admission</h3>
+      <form onsubmit="return showAlert();">
+        <input type="text" placeholder="Your Name" id="popupName" required><br/>
+        <input type="tel" placeholder="Phone Number" id="popupPhone" required><br/>
+        <input type="email" placeholder="Email" id="popupEmail" required><br/>
+        <input type="text" placeholder="Captcha: 9 + 1 = ?" id="popupCaptcha" required><br/>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <section id="home">
+    <h2>Welcome to  Shree Bajrangbali Intermediate College</h2>
+    <p>Providing quality education for over 20 years.</p>
+    <img src="WhatsApp Image 2025-03-04 at 13.26.16_e7877dc7.jpg" alt="add">
+    <img src=" " alt="">
+  </section>
+
+  
+  <section id="courses">
+      <h2>Give you a overview about the School</h2>
+      <ul>
+          <li>Teacher was very help full and give good education about your subject</li>
+          <li>Learne about his moral duty </li>
+          <li>We have good play ground and good learning</li>
+          <li>Are you enjoy. And celebrate fevrate fastvel </li>
+        </ul>
+    </section>
+    
+    <section id="admission">
+        <h2>Admission Form</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required><br/>
+            <input type="tel" placeholder="Phone Number" required><br/>
+            <input type="email" placeholder="Email Address" required><br/>
+            <textarea placeholder="Why do you want to join?" required></textarea><br/>
+            <button type="submit">Apply Now</button>
+        </form>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required><br/>
+            <input type="email" id="email" placeholder="Your Email" required><br/>
+            <textarea id="message" placeholder="Your Message" required></textarea><br/>
+            <button type="submit">Send</button>
+        </form>
+        <p id="response"></p>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Shree Bajrangbali Intermediate College is committed to nurturing young minds with knowledge and values.</p>
+    </section>
+
+  <footer>
+    <p>&copy; Shree Bajrangbali Intermediate College 2025. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
